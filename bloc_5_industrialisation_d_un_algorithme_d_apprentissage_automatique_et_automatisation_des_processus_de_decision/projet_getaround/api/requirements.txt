@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+pandas==2.2.3
+numpy==2.2.2
+scikit-learn==1.6.1
+category_encoders
+joblib==1.5.2
