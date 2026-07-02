@@ -10,7 +10,7 @@ Plateforme de location de voitures entre particuliers, GetAround fait face aux r
 ### 🔗 Livrables :
 
 * **Dashboard Streamlit** : [Accéder au Dashboard](https://gull1979-getaround-dashboard.hf.space/)
-* **API Pricing ML** : [Accéder à l'API (/predict)](https://gull1979-getaround-api.hf.space/predict) ou [Consulter la documentation (Swagger)](https://gull1979-getaround-api.hf.space/docs)
+* **API Pricing ML** : [Consulter la documentation (Swagger)](https://gull1979-getaround-api.hf.space/docs) ou [Accéder à l'API (/predict)](https://gull1979-getaround-api.hf.space/predict)
 * **MLFlow Tracking** : [Visualiser les métriques des modèles](https://gull1979-mlflow-tracking-ft.hf.space/#/experiments/3/runs?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D&compareRunsMode=CHART)
 
 ### 🛠 Structure du dépôt
