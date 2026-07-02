@@ -1,3 +1,6 @@
+Voici la version corrigée à copier-coller. J'ai retiré les liens hypertextes à l'intérieur des zones de code, car **une commande `curl` ou un script `Python` ne doit contenir que le code pur** pour fonctionner.
+
+```markdown
 # 🚀 GetAround Project – Delay Analysis & Pricing ML
 
 Plateforme de location de voitures entre particuliers, GetAround fait face aux retards de restitution, impactant la disponibilité pour le locataire suivant. Ce projet apporte deux solutions concrètes pour l'équipe Produit :
@@ -11,7 +14,7 @@ Plateforme de location de voitures entre particuliers, GetAround fait face aux r
 
 * **Dashboard Streamlit** : [Accéder au Dashboard](https://gull1979-getaround-dashboard.hf.space/)
 * **API Pricing ML** : [Accéder à l'API (/predict)](https://gull1979-getaround-api.hf.space/predict) ou [Consulter la documentation (Swagger)](https://gull1979-getaround-api.hf.space/docs)
-* **MLFlow Tracking** : [Visualiser les métriques des modèles](https://gull1979-mlflow-tracking-ft.hf.space/#/experiments/3)
+* **MLFlow Tracking** : [Visualiser les métriques des modèles](https://gull1979-mlflow-tracking-ft.hf.space/#/experiments/3/runs?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D&compareRunsMode=CHART)
 
 ### 🛠 Structure du dépôt
 
@@ -29,14 +32,14 @@ Vous pouvez l'interroger comme suit :
 ```bash
 curl -i -H "Content-Type: application/json" -X POST \
 -d '{"input": [[50000, 120, "Renault", "diesel", "black", "sedan", true, true, false, false, false, false, true]]}' \
-[https://gull1979-getaround-api.hf.space/predict](https://gull1979-getaround-api.hf.space/predict)
+https://gull1979-getaround-api.hf.space/predict
+```
 
-Via Python :
-Python
-
+**Via Python :**
+```python
 import requests
 
-response = requests.post("[https://gull1979-getaround-api.hf.space/predict](https://gull1979-getaround-api.hf.space/predict)", json={
+response = requests.post("https://gull1979-getaround-api.hf.space/predict", json={
     "input": [[50000, 120, "Renault", "diesel", "black", "sedan", True, True, False, False, False, False, True]]
 })
 print(response.json())
