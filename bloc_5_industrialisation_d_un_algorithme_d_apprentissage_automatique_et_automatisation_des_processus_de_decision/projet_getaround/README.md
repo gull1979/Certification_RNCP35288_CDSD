@@ -28,16 +28,16 @@ Vous pouvez l'interroger comme suit :
 **Via curl :**
 ```bash
 curl -i -H "Content-Type: application/json" -X POST \
--d '{"input": [[50000, 120, "Renault", "diesel", "black", "sedan", true, true, false, false, false, false, true]]}' \
-[https://gull1979-getaround-api.hf.space/predict](https://gull1979-getaround-api.hf.space/predict)
+-d '{"input": [["Renault", 50000.0, 100.0, "petrol", "black", "sedan", 1, 1, 1, 0, 1, 0, 1]]}' \
+[https://gull1979-getaround-api.hf.space/predict](https://gull1979-getaround-api.hf.space/predict
 ```
 
 **Via Python :**
 ```python
 import requests
 
-response = requests.post("https://gull1979-getaround-api.hf.space/predict", json={
-    "input": [[50000, 120, "Renault", "diesel", "black", "sedan", True, True, False, False, False, False, True]]
+response = requests.post("[https://gull1979-getaround-api.hf.space/predict](https://gull1979-getaround-api.hf.space/predict)", json={
+    "input": [["Renault", 50000.0, 100.0, "petrol", "black", "sedan", 1, 1, 1, 0, 1, 0, 1]]
 })
 print(response.json())
 ```
