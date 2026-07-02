@@ -17,7 +17,11 @@ Projet réalisé dans le cadre de la certification Data FullStack – Jedha.
 
     API Pricing ML : API de prédiction de prix (/predict).
 
-        Documentation technique (Swagger) : https://gull1979-getaround-api.hf.space/docs
+        https://gull1979-getaround-api.hf.space/docs
+		
+    MlFlow Tracking : Métriques des modèles entrainés
+
+        https://gull1979-mlflow-tracking-ft.hf.space/#/experiments/3
 
 🛠 Structure du dépôt
 
