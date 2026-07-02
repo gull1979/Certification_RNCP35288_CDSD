@@ -30,7 +30,7 @@ Vous pouvez l'interroger comme suit :
 curl -i -H "Content-Type: application/json" -X POST \
 -d '{"input": [[50000, 120, "Renault", "diesel", "black", "sedan", true, true, false, false, false, false, true]]}' \
 [https://gull1979-getaround-api.hf.space/predict](https://gull1979-getaround-api.hf.space/predict)
-
+```
 
 **Via Python :**
 ```python
@@ -40,5 +40,6 @@ response = requests.post("https://gull1979-getaround-api.hf.space/predict", json
     "input": [[50000, 120, "Renault", "diesel", "black", "sedan", True, True, False, False, False, False, True]]
 })
 print(response.json())
+```
 
 
