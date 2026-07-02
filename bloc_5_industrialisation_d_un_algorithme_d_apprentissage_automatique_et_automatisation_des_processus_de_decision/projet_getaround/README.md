@@ -1,6 +1,3 @@
-Voici la version corrigée à copier-coller. J'ai retiré les liens hypertextes à l'intérieur des zones de code, car **une commande `curl` ou un script `Python` ne doit contenir que le code pur** pour fonctionner.
-
-```markdown
 # 🚀 GetAround Project – Delay Analysis & Pricing ML
 
 Plateforme de location de voitures entre particuliers, GetAround fait face aux retards de restitution, impactant la disponibilité pour le locataire suivant. Ce projet apporte deux solutions concrètes pour l'équipe Produit :
@@ -32,8 +29,8 @@ Vous pouvez l'interroger comme suit :
 ```bash
 curl -i -H "Content-Type: application/json" -X POST \
 -d '{"input": [[50000, 120, "Renault", "diesel", "black", "sedan", true, true, false, false, false, false, true]]}' \
-https://gull1979-getaround-api.hf.space/predict
-```
+[https://gull1979-getaround-api.hf.space/predict](https://gull1979-getaround-api.hf.space/predict)
+
 
 **Via Python :**
 ```python
@@ -43,3 +40,5 @@ response = requests.post("https://gull1979-getaround-api.hf.space/predict", json
     "input": [[50000, 120, "Renault", "diesel", "black", "sedan", True, True, False, False, False, False, True]]
 })
 print(response.json())
+
+
