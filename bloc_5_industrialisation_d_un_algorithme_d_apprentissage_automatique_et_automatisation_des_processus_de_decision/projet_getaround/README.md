@@ -27,18 +27,19 @@ Vous pouvez l'interroger comme suit :
 
 **Via curl :**
 ```bash
-curl -i -H "Content-Type: application/json" -X POST \
--d '{"input": [["Renault", 50000.0, 100.0, "petrol", "black", "sedan", 1, 1, 1, 0, 1, 0, 1]]}' \
-[https://gull1979-getaround-api.hf.space/predict](https://gull1979-getaround-api.hf.space/predict
+curl -i -H "Content-Type: application/json" -X POST -d '{"input": [["Renault", 50000.0, 100.0, "petrol", "black", "sedan", 1, 1, 1, 0, 1, 0, 1]]}' https://gull1979-getaround-api.hf.space/predict
 ```
 
 **Via Python :**
 ```python
 import requests
 
-response = requests.post("[https://gull1979-getaround-api.hf.space/predict](https://gull1979-getaround-api.hf.space/predict)", json={
+url = "https://gull1979-getaround-api.hf.space/predict"
+
+response = requests.post(url, json={
     "input": [["Renault", 50000.0, 100.0, "petrol", "black", "sedan", 1, 1, 1, 0, 1, 0, 1]]
 })
+
 print(response.json())
 ```
 
