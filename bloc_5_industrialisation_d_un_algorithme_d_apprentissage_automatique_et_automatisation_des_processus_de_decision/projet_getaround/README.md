@@ -6,12 +6,6 @@ Plateforme de location de voitures entre particuliers, GetAround fait face aux r
 
     Optimisation tarifaire : Développement et déploiement d'un modèle de Machine Learning (Random Forest) pour suggérer un prix de location journalier optimal.
 
-Livrables :
-
-    Dashboard interactif : Visualisation des impacts business (taux de blocage vs conflits résolus).
-
-    API de prédiction : Endpoint /predict déployé et documenté, permettant d'intégrer le modèle en production.
-
 Projet réalisé dans le cadre de la certification Data FullStack – Jedha.
 
 
