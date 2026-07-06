@@ -1,0 +1,5 @@
+Projet 🚧
+
+Les data scientists à l'origine de la newsletter souhaitent mieux comprendre le comportement des utilisateurs visitant leur site web. Ils aimeraient savoir s'il est possible de construire un modèle prédictif de l'abonnement à la newsletter, à partir de quelques informations seulement. Ils envisagent ensuite d'analyser les paramètres de ce modèle afin de mettre en évidence les caractéristiques pertinentes pour expliquer ce comportement et, éventuellement, identifier un nouveau levier d'action pour améliorer le taux de conversion de la newsletter.
+
+Ils ont conçu un concours visant à élaborer un modèle permettant de prédire les conversions (c'est-à-dire la date à laquelle un utilisateur s'abonnera à la newsletter). Pour ce faire, ils ont mis à disposition en open source un jeu de données contenant des informations sur le trafic de leur site web. Afin d'évaluer les performances des différentes équipes participantes, ils ont opté pour le score F1 . 
