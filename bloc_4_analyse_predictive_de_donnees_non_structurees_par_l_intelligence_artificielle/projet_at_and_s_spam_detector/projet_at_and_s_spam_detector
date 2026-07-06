@@ -1,0 +1,14 @@
+3 modèles  de base fait à la main
+preprocessing à la main
+
+garder les caractère numériques ou non ?
+on les gardes
+
+undersampling (équilibrage spam ham)
+
+premier modèle multi layer dense
+global average pooling
+
+matrice de confusion
+accurancy plus élevé que precision
+-> car mieux vaut oublier un spam que de bloquer un bon message
