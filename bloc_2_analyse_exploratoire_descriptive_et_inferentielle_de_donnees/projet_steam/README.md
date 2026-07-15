@@ -8,4 +8,6 @@ Ils vous ont demandé de réaliser une analyse globale des jeux disponibles sur 
 ## Blocs de compétences
 
 ### Bloc 2 : Analyse exploratoire, descriptive et inférentielle de données
-[Visualiser l'Analyse Macro de Steam (Notebook Interactif)](https://dbc-c26029f9-04fb.cloud.databricks.com/editor/notebooks/4477130002428866?o=7474650326883513)
+[Analyse au niveau « macro »](https://dbc-c26029f9-04fb.cloud.databricks.com/editor/notebooks/4477130002428866?o=7474650326883513)
+[Analyse des genres](https://dbc-c26029f9-04fb.cloud.databricks.com/editor/notebooks/4477130002428869?o=7474650326883513)
+[Analyse de la plateforme ](https://dbc-c26029f9-04fb.cloud.databricks.com/editor/notebooks/4477130002428870?o=7474650326883513)
