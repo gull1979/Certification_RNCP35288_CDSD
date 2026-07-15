@@ -8,4 +8,4 @@ Ils vous ont demandé de réaliser une analyse globale des jeux disponibles sur 
 ## Blocs de compétences
 
 ### Bloc 2 : Analyse exploratoire, descriptive et inférentielle de données
-[Visualiser l'Analyse Macro de Steam (Notebook Interactif)](https://gull1979.github.io/Certification_RNCP35288_CDSD/bloc_2_analyse_exploratoire,_descriptive_et_inferentielle_de_donnees/projet_steam/01_Steam_Macro.html)
+[Visualiser l'Analyse Macro de Steam (Notebook Interactif)](https://dbc-c26029f9-04fb.cloud.databricks.com/editor/notebooks/4477130002428866?o=7474650326883513)
