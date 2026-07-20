@@ -10,3 +10,20 @@ L'équipe marketing de Kayak souhaite donc créer une application qui recommande
     Hôtels dans la région
 
 L'application devrait alors être en mesure de recommander les meilleures destinations et les meilleurs hôtels en fonction des variables ci-dessus à tout moment. 
+
+### 📂 Contenu
+Il y a actuellement **5 notebooks** dans ce dépôt. Chronologiquement, ils s'articulent ainsi :
+
+01-ville_meteo_gps.ipynb
+
+02-booking.ipynb
+
+03-aws_bucket.ipynb
+
+04-rds-sql.ipynb
+
+05-visualisation.ipynb
+
+### 🚀 Liens de Production 
+
+* 💾 **AWS S3 : fichier CSV contenant des informations enrichies sur la météo et les hôtels pour chaque ville française** [kayak_ds.csv](https://certification-kayak.s3.eu-west-3.amazonaws.com/kayak_ds.csv)
