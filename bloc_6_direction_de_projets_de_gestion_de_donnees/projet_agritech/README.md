@@ -10,17 +10,17 @@ Nous avons choisi ce sujet en partant d'un jeu de données en provenance de **Ka
 
 Il y a actuellement **3 notebooks** dans ce dépôt. Chronologiquement, ils s'articulent ainsi :
 
-* **`1 - 01_data_merge_for_EDA.ipynb`**
+* **[`1 - 01_data_merge_for_EDA.ipynb`](https://github.com/gull1979/Certification_RNCP35288_CDSD/blob/main/bloc_6_direction_de_projets_de_gestion_de_donnees/projet_agritech/01_data_merge_for_EDA.ipynb)**
   C'est le point de départ qui fusionne 2 sources :
   * La **FAOstat** (Organisation des Nations Unies pour l'alimentation et l'agriculture)
   * La **CRU** (Unité de recherche Climatique)
   
   > L'agrégation de ces éléments (Pays / Récoltes / Rendement / Nutriments / Pesticides / Climat) sur 124 ans a constitué la base de données initiale.
 
-* **`2 - 02_EDA_26_06_04.ipynb`**
+* **[`2 - 02_EDA_26_06_04.ipynb`](https://github.com/gull1979/Certification_RNCP35288_CDSD/blob/main/bloc_6_direction_de_projets_de_gestion_de_donnees/projet_agritech/02_EDA_26_06_04.ipynb)**
   C'est à cette étape que l'on a mis à plat les données pour leur donner du sens et les rendre compatibles avec l'apprentissage d'un modèle d'IA.
 
-* **`3 - 03_ML_26_06_10.ipynb`**
+* **[`3 - 03_ML_26_06_10.ipynb`](https://github.com/gull1979/Certification_RNCP35288_CDSD/blob/main/bloc_6_direction_de_projets_de_gestion_de_donnees/projet_agritech/03_ML_26_06_10.ipynb)**
   Voici la partie apprentissage, avec pas moins de 4 modèles testés et paramétrés pour donner le meilleur d'eux-mêmes.
 
 ### ⚙️ Fichiers de Déploiement
