@@ -1,0 +1,19 @@
+# Fichiers de modèles lourds (Sécurité)
+*.joblib
+*.pkl
+*.pth
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environnements virtuels (si tu en crées un dans ce dossier)
+.venv/
+venv/
+env/
+
+# Fichiers de configuration locale
+.env
