@@ -23,6 +23,12 @@ Il y a actuellement **3 notebooks** dans ce dépôt. Chronologiquement, ils s'ar
 * **`3 - 03_ML_26_06_10.ipynb`**
   Voici la partie apprentissage, avec pas moins de 4 modèles testés et paramétrés pour donner le meilleur d'eux-mêmes.
 
+### ⚙️ Fichiers de Déploiement
+
+* 📁 **[Code source déploiement docker](deploiement_prod/)**
+* 📄 [Script python Front - Streamlit](https://github.com/gull1979/Certification_RNCP35288_CDSD/blob/main/bloc_6_direction_de_projets_de_gestion_de_donnees/projet_agritech/deploiement_prod/streamlit_app.py)
+* 📄 [Script python API en background](https://github.com/gull1979/Certification_RNCP35288_CDSD/blob/main/bloc_6_direction_de_projets_de_gestion_de_donnees/projet_agritech/deploiement_prod/api_app.py)
+
 ### 🚀 Liens de Production & Déploiement
 
 * 📊 **Tracking ML-Flow :** [Afficher les métriques des modèles](https://gull1979-mlflow-tracking-ft.hf.space/#/experiments/2/runs?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D&compareRunsMode=CHART)
