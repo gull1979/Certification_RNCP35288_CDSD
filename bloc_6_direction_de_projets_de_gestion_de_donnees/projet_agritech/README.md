@@ -27,8 +27,8 @@ C'est à cette étape que l'on a mis à plat les données pour leur donner du se
 
 Voici la partie apprentissage, avec pas moins de 4 modèles testés et paramétrés pour donner le meilleur d'eux-même.
 
-4 - [Afficher les métriques des modèles sur le tracking ML-Flow](https://gull1979-mlflow-tracking-ft.hf.space/#/experiments/2/runs?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D&compareRunsMode=CHART)
+### 🚀 Liens de Production & Déploiement
 
-5 - [AWS S3 Bucket -> Télécharger le modèle catboost_prod.joblib](https://jedha-projet.s3.eu-west-3.amazonaws.com/catboost_prod.joblib)
-
-6 - [DashBoard AgriTech pour faire les prédictions de rendement ](https://gull1979-api-production.hf.space/)
+* 📊 **Tracking ML-Flow :** [Afficher les métriques des modèles](https://gull1979-mlflow-tracking-ft.hf.space/#/experiments/2/runs?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D&compareRunsMode=CHART)
+* 💾 **Modèle Entraîné (AWS S3) :** [Télécharger catboost_prod.joblib](https://jedha-projet.s3.eu-west-3.amazonaws.com/catboost_prod.joblib)
+* 🌍 **Application Web :** [DashBoard AgriTech pour les prédictions de rendement](https://gull1979-api-production.hf.space/)
