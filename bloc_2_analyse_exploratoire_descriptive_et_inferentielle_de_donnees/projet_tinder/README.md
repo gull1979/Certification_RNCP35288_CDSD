@@ -1,7 +1,15 @@
-Projet 🚧
+# Tinder
 
-L'équipe marketing a besoin d'aide pour un nouveau projet. Elle constate une baisse du nombre de mises en relation et cherche à comprendre ce qui suscite l'intérêt des personnes les unes pour les autres .
+Analyse de données issues d'une expérience de speed dating pour comprendre les facteurs d'attraction mutuelle.
 
-Ils ont décidé de mener une expérience de rencontres rapides avec des personnes qui devaient fournir à Tinder de nombreuses informations personnelles susceptibles d'apparaître sur leur profil de rencontre sur l'application.
+## Contexte & Objectifs
 
-Tinder a ensuite collecté les données de cette expérience. Chaque ligne de l'ensemble de données représente un speed dating entre deux personnes et indique si chacune d'elles a secrètement accepté un second rendez-vous avec l'autre. 
+🚧 L'équipe marketing constate une baisse du nombre de mises en relation et cherche à comprendre ce qui suscite l'intérêt mutuel. Pour y remédier, les données d'une expérience de speed dating ont été collectées, incluant le profil des participants et leur choix d'accepter ou non un second rendez-vous.
+
+🎯 L'objectif de ce projet est d'analyser cet ensemble de données à l'aide de statistiques descriptives et de visualisations afin de déterminer ce qui incite les individus à s'intéresser l'un à l'autre.
+
+## Structure du dépôt
+
+```text
+├── Project Speed Dating.ipynb  # Notebook d'exploration, d'analyse et de visualisation
+└── README.md                   # Documentation du module
