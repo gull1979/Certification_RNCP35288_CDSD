@@ -1,5 +1,17 @@
-Projet 🚧
+# Conversion Rate
 
-Les data scientists à l'origine de la newsletter souhaitent mieux comprendre le comportement des utilisateurs visitant leur site web. Ils aimeraient savoir s'il est possible de construire un modèle prédictif de l'abonnement à la newsletter, à partir de quelques informations seulement. Ils envisagent ensuite d'analyser les paramètres de ce modèle afin de mettre en évidence les caractéristiques pertinentes pour expliquer ce comportement et, éventuellement, identifier un nouveau levier d'action pour améliorer le taux de conversion de la newsletter.
+Développement d'un modèle prédictif d'abonnement à une newsletter et analyse des leviers d'action pour optimiser la conversion.
 
-Ils ont conçu un concours visant à élaborer un modèle permettant de prédire les conversions (c'est-à-dire la date à laquelle un utilisateur s'abonnera à la newsletter). Pour ce faire, ils ont mis à disposition en open source un jeu de données contenant des informations sur le trafic de leur site web. Afin d'évaluer les performances des différentes équipes participantes, ils ont opté pour le score F1 . 
+## Contexte & Objectifs
+
+🚧 Les data scientists responsables d'une newsletter souhaitent mieux comprendre le comportement des visiteurs de leur site web. Ils cherchent à déterminer s'il est possible de prédire l'abonnement à partir de données de trafic limitées afin d'identifier de nouveaux leviers d'action pour améliorer le taux de conversion. 
+
+🎯 L'objectif de ce projet est de construire et d'optimiser un modèle prédictif (évalué via le score F1), d'exporter des prédictions sur un jeu de données de test, et d'analyser les caractéristiques les plus pertinentes du modèle pour formuler des recommandations stratégiques.
+
+## Structure du dépôt
+
+```text
+├── src/                             # Code source du projet
+├── Projet Taux de Conversion.pdf    # Présentation du projet et recommandations
+├── Conversion_rate_challenge.ipynb  # Notebook d'exploration, de modélisation et d'optimisation
+└── README.md                        # Documentation du module
