@@ -1,9 +1,16 @@
-Projet 🚧
+# Uber-Pickups
 
-L'un des principaux problèmes identifiés par l'équipe d'Uber est que les chauffeurs ne sont parfois pas disponibles lorsque les utilisateurs en ont besoin. Par exemple, un utilisateur peut se trouver dans le quartier financier de San Francisco, tandis que les chauffeurs Uber recherchent des clients dans le quartier de Castro.
+Création d'un algorithme et d'un tableau de bord pour recommander aux chauffeurs Uber les zones à forte demande selon l'heure de la journée.
 
-(Si vous ne connaissez pas la région de la baie, consultez Google Maps .)
+## Contexte & Objectifs
 
-Bien que les deux quartiers ne soient pas très éloignés, les utilisateurs doivent tout de même attendre entre 10 et 15 minutes avant d'être pris en charge, ce qui est trop long. Les études d'Uber montrent que les utilisateurs acceptent d'attendre entre 5 et 7 minutes ; au-delà, ils annulent leur course.
+🚧 L'un des principaux problèmes identifiés par Uber est l'indisponibilité des chauffeurs là où la demande est forte, entraînant des temps d'attente trop longs (10 à 15 minutes) et des annulations de courses. L'équipe souhaite une solution pour recommander les zones les plus fréquentées à tout moment de la journée.
 
-Par conséquent, l'équipe de données d'Uber souhaiterait travailler sur un projet dans le cadre duquel son application recommanderait les zones les plus fréquentées des grandes villes à tout moment de la journée. 
+🎯 L'objectif de ce projet est de créer un algorithme pour déterminer ces zones à forte demande à partir des données de prises en charge existantes, et de visualiser les résultats sur un tableau de bord interactif.
+
+## Structure du dépôt
+
+```text
+├── screen_shot/             # Captures d'écran du tableau de bord
+├── uber_pickup.ipynb        # Notebook d'exploration, de modélisation et de visualisation
+└── README.md                # Documentation du module
